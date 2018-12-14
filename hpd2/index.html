@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HPD 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body class="bg-secondary">
+ 
+    <div class="container my-5" id="maindiv">
+      <div id="navdiv"></div>
+
+    <table class="table table-responsive table-dark table-striped table-hover">
+      <thead>
+          <tr>
+              <th nowrap><a>First Name</a></th>
+              <th nowrap>Last Name</th>
+              <th nowrap>Address 1</th>
+              <th nowrap>Address 2</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Zip</th>
+              <th>Policy</th>
+              <th>Expiration</th>
+              <th colspan=2>Action</th>
+          </tr>
+      </thead>
+      <tbody id="ownerTable"></tbody>
+  </table>  
+
+  <nav aria-label="Results">
+    <ul class="pagination">
+            <li class='page-item'>
+                <button class="btn btn-dark paging-button" data-value="-1"><strong><</strong></button>
+            </li>
+            <li>
+              <button class="btn btn-dark" id="currentPageButton"></button>
+            </li>
+            <li class='page-item'>
+                <button id="forwards" class="btn btn-dark paging-button" data-value="1"><strong>></strong></button>
+            </li>
+    </ul>
+</nav>
+</div>
+  </div>
+
+
+  <div id="submissionModalDiv"></div> 
+  <div id="editModalDiv"></div>
+  <div id="itemsModal"></div>
+  <div id="itemsSubmissionModal"></div>
+  <div id="itemsEditModal"></div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

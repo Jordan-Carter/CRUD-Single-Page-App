@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Owners</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <button type="button" class="btn btn-success mr-3" data-toggle="modal" data-placement="top" title="Add Owner" data-target="#ownerSubmissionModal">+</button>    
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Items Per Page
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">5</a>
+            <a class="dropdown-item" href="#"&perPage=10>10</a>
+            <a class="dropdown-item" href="#"&perPage=20>20</a>
+            <a class="dropdown-item" href="#"&perPage=50>50</a>
+            <a class="dropdown-item" href="#"&perPage=100>100</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input name="filter" class="form-control mr-sm-2" type="search" placeholder="Filter Results" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
